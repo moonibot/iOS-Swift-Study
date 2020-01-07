@@ -8,3 +8,7 @@ iOS Swift Example Study
 ### 26 Gallery
 ![Alt Text](https://github.com/moonibot/iOS-Swift-Study/blob/master/gif/26-Gallery1.gif)
 ![Alt Text](https://github.com/moonibot/iOS-Swift-Study/blob/master/gif/26-Gallery2.gif)
+
+### 27 PinchGesture
+![Alt Text](https://github.com/moonibot/iOS-Swift-Study/blob/master/gif/27-PinchGesture-Text.gif)
+![Alt Text](https://github.com/moonibot/iOS-Swift-Study/blob/master/gif/27-PinchGesture-Image.gif)
