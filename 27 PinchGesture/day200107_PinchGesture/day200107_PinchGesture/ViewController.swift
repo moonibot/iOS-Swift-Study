@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var txtPinch: UILabel!
+
+    @IBOutlet var imgPinch: UIImageView!
     
     var initialFontSize: CGFloat! // 글자 크기를 저장하기 위한 변수
     
@@ -23,14 +24,8 @@ class ViewController: UIViewController {
     }
     
     @objc func doPinch(_ pinch: UIPinchGestureRecognizer) {
-        // 핀치 제스처 상태 확인
-        if (pinch.state == UIPinchGestureRecognizer.State.began) {
-            // 시작 상태이면 현재 글자 크기를 저장
-            initialFontSize = txtPinch.font.pointSize
-        } else {
-            // 시작 상태가 아니면 텍스트의 글자 크기를 변경
-            txtPinch.font = txtPinch.font.withSize(initialFontSize * pinch.scale)
-        }
+        imgPinch.transform = imgPinch.transform.scaledBy(x: pinch.scale, y: pinch.scale)
+        pinch.scale = 1
     }
 
 
