@@ -49,8 +49,14 @@ class ViewController: UIViewController {
         swipeRightMulti.numberOfTouchesRequired = numOfTouchs
         self.view.addGestureRecognizer(swipeRightMulti)
         
+        // UIPinchGestureRecognizer 클래스 상수 pinch 선언
         let pinch = UIPinchGestureRecognizer(target: self, action: #selector(ViewController.doPinch(_:)))
         self.view.addGestureRecognizer(pinch)
+    }
+
+    @IBAction func pageChanged(_ sender: UIPageControl) {
+        // print("page Changed")
+        imgView.image = UIImage(named: images[pageControl.currentPage])
     }
     
     // 한 손가락 스와이프 제스쳐를 행했을 때 실행할 액션 메서드
@@ -88,14 +94,11 @@ class ViewController: UIViewController {
             }
         }
     }
-
-    @IBAction func pageChanged(_ sender: UIPageControl) {
-        // print("page Changed")
-        imgView.image = UIImage(named: images[pageControl.currentPage])
-    }
     
     @objc func doPinch(_ pinch: UIPinchGestureRecognizer) {
+        // 이미지를 스케일에 맞게 변환
         imgView.transform = imgView.transform.scaledBy(x: pinch.scale, y: pinch.scale)
+        // 다음 변환을 위해 핀치의 스케일 속성을 1로 설정
         pinch.scale = 1
     }
     
