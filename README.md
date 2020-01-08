@@ -12,3 +12,6 @@ iOS Swift Example Study
 ### 27 PinchGesture
 ![Alt Text](https://github.com/moonibot/iOS-Swift-Study/blob/master/gif/27-PinchGesture-Text.gif)
 ![Alt Text](https://github.com/moonibot/iOS-Swift-Study/blob/master/gif/27-PinchGesture-Image.gif)
+
+### 28 PinchGesture-Example
+![Alt Text](https://github.com/moonibot/iOS-Swift-Study/blob/master/gif/28-PinchGesture-Example.gif)
