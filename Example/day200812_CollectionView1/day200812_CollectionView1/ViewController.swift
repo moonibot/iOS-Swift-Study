@@ -59,6 +59,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
 // 커스텀 셀 구현
 class CustomCell: UICollectionViewCell {
-    @IBOutlet weak var image: UIImageView!
+    @IBOutlet var image: UIImageView!
 }
 

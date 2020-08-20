@@ -40,6 +40,9 @@
                                                 </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="image" destination="FXu-JH-NMK" id="0kJ-MN-HTL"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
