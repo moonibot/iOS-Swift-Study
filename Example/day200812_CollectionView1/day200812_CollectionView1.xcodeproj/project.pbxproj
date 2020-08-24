@@ -18,6 +18,9 @@
 		0A225F4A24E3F62F0059B9CA /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A225F4724E3F62F0059B9CA /* b.png */; };
 		0A225F4B24E3F62F0059B9CA /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A225F4824E3F62F0059B9CA /* c.png */; };
 		0A225F4C24E3F62F0059B9CA /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A225F4924E3F62F0059B9CA /* a.png */; };
+		0A4DAA3324F3CFD00031EDA4 /* 삼치구이.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A4DAA3024F3CFD00031EDA4 /* 삼치구이.jpeg */; };
+		0A4DAA3424F3CFD00031EDA4 /* 청아라 미아점.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A4DAA3124F3CFD00031EDA4 /* 청아라 미아점.jpeg */; };
+		0A4DAA3524F3CFD00031EDA4 /* 고등어무조림.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A4DAA3224F3CFD00031EDA4 /* 고등어무조림.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		0A225F4724E3F62F0059B9CA /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
 		0A225F4824E3F62F0059B9CA /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
 		0A225F4924E3F62F0059B9CA /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		0A4DAA3024F3CFD00031EDA4 /* 삼치구이.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "삼치구이.jpeg"; sourceTree = "<group>"; };
+		0A4DAA3124F3CFD00031EDA4 /* 청아라 미아점.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "청아라 미아점.jpeg"; sourceTree = "<group>"; };
+		0A4DAA3224F3CFD00031EDA4 /* 고등어무조림.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "고등어무조림.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 				0A225F4924E3F62F0059B9CA /* a.png */,
 				0A225F4724E3F62F0059B9CA /* b.png */,
 				0A225F4824E3F62F0059B9CA /* c.png */,
+				0A4DAA3224F3CFD00031EDA4 /* 고등어무조림.jpeg */,
+				0A4DAA3024F3CFD00031EDA4 /* 삼치구이.jpeg */,
+				0A4DAA3124F3CFD00031EDA4 /* 청아라 미아점.jpeg */,
 				0A225F1724E3F2950059B9CA /* AppDelegate.swift */,
 				0A225F1924E3F2950059B9CA /* SceneDelegate.swift */,
 				0A225F1B24E3F2950059B9CA /* ViewController.swift */,
@@ -241,8 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4DAA3424F3CFD00031EDA4 /* 청아라 미아점.jpeg in Resources */,
 				0A225F2424E3F2960059B9CA /* LaunchScreen.storyboard in Resources */,
+				0A4DAA3324F3CFD00031EDA4 /* 삼치구이.jpeg in Resources */,
 				0A225F2124E3F2960059B9CA /* Assets.xcassets in Resources */,
+				0A4DAA3524F3CFD00031EDA4 /* 고등어무조림.jpeg in Resources */,
 				0A225F4A24E3F62F0059B9CA /* b.png in Resources */,
 				0A225F4C24E3F62F0059B9CA /* a.png in Resources */,
 				0A225F1F24E3F2950059B9CA /* Main.storyboard in Resources */,
