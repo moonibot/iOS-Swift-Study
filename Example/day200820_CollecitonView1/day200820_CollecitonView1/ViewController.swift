@@ -57,8 +57,13 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource,U
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        /*
         let size = CGSize(width: self.view.frame.width / 3, height: 100)
         return size
+         */
+        
+        let width = collectionView.frame.width / 3
+        return CGSize(width: width, height: width)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
