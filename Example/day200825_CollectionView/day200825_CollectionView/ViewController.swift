@@ -10,8 +10,9 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    let images = [ #imageLiteral(resourceName: "고등어무조림") , #imageLiteral(resourceName: "삼치구이") , #imageLiteral(resourceName: "청아라 미아점") ] 
-    
+    // imageliteral
+    let images = [ #imageLiteral(resourceName: "고등어무조림") , #imageLiteral(resourceName: "삼치구이") , #imageLiteral(resourceName: "청아라 미아점") , #imageLiteral(resourceName: "고등어무조림") , #imageLiteral(resourceName: "삼치구이") , #imageLiteral(resourceName: "청아라 미아점") , #imageLiteral(resourceName: "고등어무조림") , #imageLiteral(resourceName: "삼치구이") , #imageLiteral(resourceName: "청아라 미아점") ]
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -27,6 +28,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RowCell", for: indexPath) as! CustomCell
         cell.imageview.image = images[indexPath.row]
+        cell.layer.borderColor = UIColor.lightGray.cgColor
+        cell.layer.borderWidth = 1
         
         return cell
         
@@ -43,7 +46,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     // 위 아래 간격 설정
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
 
-        return 0
+        return 10
     }
     
     // 양 옆 간격 설정
